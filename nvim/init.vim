@@ -21,6 +21,9 @@ Plug 'https://github.com/ap/vim-css-color'
 Plug 'https://github.com/preservim/tagbar'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'https://github.com/windwp/nvim-autopairs'
+Plug 'feline-nvim/feline.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'nvim-lua/plenary.nvim'
 
 " Filesearching
 Plug 'https://github.com/nvim-telescope/telescope-fzy-native.nvim'
@@ -59,6 +62,7 @@ lua require('misConf')
 lua require('lspconf')
 lua require('cmpConf')
 lua require('lintConf')
+lua require('felineConf')
 
 " settings for lsc
 let g:lsc_enable_autocomplete = v:false
