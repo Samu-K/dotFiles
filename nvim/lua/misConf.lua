@@ -46,6 +46,5 @@ require('mason-tool-installer').setup {
 require'nvim-autopairs'.setup()
 require'gitsigns'.setup()
 require'mason'.setup()
-require'mason-nvim-dap'.setup()
 require'mason-lspconfig'.setup()
 require'nvim_comment'.setup()

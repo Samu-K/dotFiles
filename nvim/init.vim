@@ -31,13 +31,6 @@ Plug 'williamboman/mason.nvim'
 Plug 'WhoIsSethDaniel/mason-tool-installer.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 
-" Debubbing
-Plug 'mfussenegger/nvim-dap'
-Plug 'jay-babu/mason-nvim-dap.nvim'
-Plug 'rcarriga/nvim-dap-ui'
-Plug 'antoinemadec/FixCursorHold.nvim'
-Plug 'nvim-lua/plenary.nvim'
-
 " Testing
 Plug 'nvim-neotest/neotest'
 Plug 'folke/trouble.nvim'
@@ -64,8 +57,6 @@ call plug#end()
 lua require('treesitter')
 lua require('misConf')
 lua require('lspconf')
-lua require('dapConfigs')
-lua require('dapAdps')
 lua require('cmpConf')
 lua require('lintConf')
 
