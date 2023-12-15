@@ -78,13 +78,12 @@ let g:lsc_enable_autocomplete = v:false
 " Keybindings
 nmap <leader>tb :TagbarToggle<CR>
 nnoremap <leader>xx <cmd>TroubleToggle document_diagnostics<cr>
+
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-nnoremap <leader>db <cmd>:lua dapRunConfigWithArgs()<cr>
-nnoremap <leader>c <cmd>:lua require'dap'.continue()<cr>
-nnoremap <leader>b  <cmd>:lua require'dap'.toggle_breakpoint()<cr>
+
 nnoremap <leader>gD <cmd>lua require'telescope.builtin'.lsp_definitions()<cr>
 nnoremap <leader>bb <cmd>Telescope buffers<cr>
 

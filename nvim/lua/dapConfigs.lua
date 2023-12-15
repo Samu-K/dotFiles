@@ -15,12 +15,4 @@ dap.configurations.cpp = {
 
 dap.configurations.c = dap.configurations.cpp
 
-dap.configurations.java = {
-  {
-    classPaths = {},
-    javaExec = "/usr/bin/java",
-    request = "launch",
-    type = "java"
-  },
-}
 
