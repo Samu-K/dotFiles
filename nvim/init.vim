@@ -13,8 +13,8 @@
 :set number
 
 " source files for plugins and keybinds
-source plugs.vim
-source keyBinds.vim
+source ~/.config/nvim/plugs.vim
+source ~/.config/nvim/keyBinds.vim
 
 " Colorscheme
 :colorscheme catppuccin-mocha

@@ -12,6 +12,7 @@ Plug 'feline-nvim/feline.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-tree/nvim-tree.lua'
+Plug 'stevearc/dressing.nvim'
 
 " Filesearch
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
